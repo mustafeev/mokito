@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 public class MovieManagerTest {
 
     @Test
-    public void shouldAddMovies() {
+    public void shouldAddMovies( ) {
         MovieManager manager = new MovieManager();
         manager.addMovies("Film 1");
         manager.addMovies("Film 2");
